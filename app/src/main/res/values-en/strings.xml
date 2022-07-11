@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_make_yourself">Create a better version of yourself!</string>
+    <string name="work_with_you">Work on yourself!</string>
+    <string name="choose_mood">Choose your mood:</string>
+    <string name="describe_feelings">Describe your feelings:</string>
+    <string name="start_typing">Start typing:</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="dear_diary">Dear diary, today I</string>
+</resources>

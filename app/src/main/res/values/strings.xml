@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Mood Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="cover" translatable="false">...</string>
+    <string name="home_make_yourself">Создай лучшую версию себя!</string>
+    <string name="work_with_you">Работать над собой!</string>
+    <string name="happy" translatable="false">happy</string>
+    <string name="lovely" translatable="false">lovely</string>
+    <string name="normal" translatable="false">normal</string>
+    <string name="sad" translatable="false">sad</string>
+    <string name="very_sad" translatable="false">very sad</string>
+    <string name="choose_mood">Выбери своё настроение:</string>
+    <string name="describe_feelings">Опиши свои чувства:</string>
+    <string name="start_typing">Начните вводить:</string>
+    <string name="save">Сохранить</string>
+    <string name="delete" translatable="false">delete</string>
+    <string name="go_back" translatable="false">go back</string>
+    <string name="title">Заголовок</string>
+    <string name="dear_diary">Дорогой дневник, сегодня я</string>
+</resources>

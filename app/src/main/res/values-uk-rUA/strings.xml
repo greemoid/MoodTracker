@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_make_yourself">Побудуй кращу версію себе!</string>
+    <string name="work_with_you">Працювати над собою</string>
+    <string name="choose_mood">Обери свій настрій:</string>
+    <string name="describe_feelings">Опиши свої почуття:</string>
+    <string name="start_typing">Розпочни писати:</string>
+    <string name="save">Зберегти</string>
+    <string name="title">Заголовок</string>
+    <string name="dear_diary">Дорогий щоденник, сьогодні я</string>
+</resources>

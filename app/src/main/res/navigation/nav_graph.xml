@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.greemoid.moodtracker.ui.fragments.homeScreen.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addMoodFragment"
+            app:destination="@id/addMoodFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_listNotesFragment"
+            app:destination="@id/listNotesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_moodByDateFragment"
+            app:destination="@id/moodByDateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMoodFragment"
+        android:name="com.greemoid.moodtracker.ui.fragments.addMoodScreen.AddMoodFragment"
+        android:label="fragment_add_mood"
+        tools:layout="@layout/fragment_add_mood" >
+        <action
+            android:id="@+id/action_addMoodFragment_to_moodByDateFragment"
+            app:destination="@id/moodByDateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listNotesFragment"
+        android:name="com.greemoid.moodtracker.ui.fragments.notesListScreen.ListNotesFragment"
+        android:label="fragment_list_notes"
+        tools:layout="@layout/fragment_list_notes" >
+        <action
+            android:id="@+id/action_listNotesFragment_to_noteAddFragment"
+            app:destination="@id/noteAddFragment" />
+        <action
+            android:id="@+id/action_listNotesFragment_to_noteFragment"
+            app:destination="@id/noteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteAddFragment"
+        android:name="com.greemoid.moodtracker.ui.fragments.addNoteScreen.AddNoteFragment"
+        android:label="fragment_note_add"
+        tools:layout="@layout/fragment_note_add" >
+        <action
+            android:id="@+id/action_noteAddFragment_to_listNotesFragment"
+            app:destination="@id/listNotesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moodByDateFragment"
+        android:name="com.greemoid.moodtracker.ui.fragments.moodByDateScreen.MoodByDateFragment"
+        android:label="fragment_mood_by_date"
+        tools:layout="@layout/fragment_mood_by_date" >
+        <action
+            android:id="@+id/action_moodByDateFragment_to_addMoodFragment"
+            app:destination="@id/addMoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.greemoid.moodtracker.ui.fragments.noteScreen.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note" >
+        <argument
+            android:name="note"
+            app:argType="com.greemoid.moodtracker.models.Note" />
+        <action
+            android:id="@+id/action_noteFragment_to_listNotesFragment"
+            app:destination="@id/listNotesFragment" />
+    </fragment>
+</navigation>
